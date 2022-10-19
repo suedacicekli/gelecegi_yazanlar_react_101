@@ -1,17 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 //import User from "./components/User"
 //import UserCard from './components/UserCard';
 //import Counter from "./components/Counter";
+import CounterTwo from "./components/CounterTwo";
 //import Use from "./components/Use";
 //import Colors from './components/Colors';
-import Form from './components/Form';
+//import Form2 from './components/Form';
 
 //import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
 
+  const [isVisible, setIsVisible] = useState(true);
+
   return (
     <div >
+
+      {isVisible && <CounterTwo />}
+      <button onClick={() => setIsVisible(!isVisible)}>Göster/Gizle</button>
       {/* <Use />
       <User
         //title="Kişi"
@@ -57,8 +63,9 @@ function App() {
       </div>  */}
 
       {/* <Colors /> */}
-      <Form />
+      {/* <Form2 /> */}
       {/* <Use /> */}
+
     </div>
 
   );

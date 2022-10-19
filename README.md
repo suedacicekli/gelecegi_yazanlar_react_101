@@ -2,11 +2,14 @@
 
 ![Geleceği Yazanlar Logo](https://gelecegiyazanlar.turkcell.com.tr/themes/custom/gyz/logo.svg)
 
-React’ a giriş yaptığımız bu bölümde React’in tanımı, kurulumu, uygulama yaratılması, componentler ve props’ları öğreniyoruz.
+<img width="880" alt="Ekran Resmi 2022-10-20 00 37 25" src="https://user-images.githubusercontent.com/88403704/196809531-9160a6f6-b1da-4bc7-96c4-4db5e9fd9b95.png">
+
+React’ a giriş için hazırlanan bu kursta, React’in tanımı, kurulumu, uygulama yaratılması, componentler ve props’ları öğrendim.
 
 # İçerik
 
  - React.js
+
 	-   React.Js Giriş
 	-   React Nedir?
 	-   Node.JS Kurulumu
